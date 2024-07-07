@@ -1,0 +1,62 @@
+body
+{
+    background-color: #EAA690;
+}
+.bg-custom
+{
+    background-color: #3B3333;
+}
+.navbar-custom
+{
+    font-family: 'Rubik',sans-serif;
+}
+.nav-item a 
+{
+    position: relative;
+    color: #a0a0a0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+.nav-item a:after 
+{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+.nav-item a:after {
+    left: 0;
+    bottom: -10px;
+}
+ 
+.nav-item a:hover 
+{
+    color: #ffffff;
+}
+.nav-item a:hover:after
+{
+    width: 100%;
+}
+
+ul .list-unstyled .btn
+{
+    width: 150px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
