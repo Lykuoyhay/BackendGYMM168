@@ -13,7 +13,7 @@ class CreateCoachStudentTable extends Migration
      */
     public function up()
     {
-        Schema::create('coach_student', function (Blueprint $table) {
+        Schema::create('coach_students', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('coach_id');
             $table->unsignedBigInteger('student_id');

@@ -10,6 +10,8 @@ class CoachStudent extends Model
 {
     use HasFactory;
 
+    protected $table = 'coach_students';
+    
     protected $guarded = [];
 
     public function coach()
