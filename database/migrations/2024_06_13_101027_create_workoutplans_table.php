@@ -23,12 +23,12 @@ class CreateWorkoutplansTable extends Migration
             $table->decimal('price', 8, 2); // Precision of 8, scale of 2
             $table->text('course_description');
             $table->string('course_image');
-            $table->unsignedBigInteger('user_id'); // Foreign key referencing the User model
+            $table->unsignedBigInteger('id'); // Foreign key referencing the User model
 
             $table->timestamps();
 
             // Define the foreign key constraint
-            $table->foreign('user_id')->references('user_id')->on('users')->onDelete('cascade');
+            $table->foreign('id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

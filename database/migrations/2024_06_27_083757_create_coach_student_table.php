@@ -19,8 +19,8 @@ class CreateCoachStudentTable extends Migration
             $table->unsignedBigInteger('student_id');
             $table->timestamps();
 
-            $table->foreign('coach_id')->references('user_id')->on('users')->onDelete('cascade');
-            $table->foreign('student_id')->references('user_id')->on('users')->onDelete('cascade');
+            $table->foreign('coach_id')->references('id')->on('users')->onDelete('cascade');
+            $table->foreign('student_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

@@ -24,18 +24,5 @@ class Resource extends Model
     // Indicates if the model should be timestamped
     public $timestamps = true;
 
-    // The attributes that are mass assignable
-    // protected $fillable = [
-    //     'article_title',
-    //     'article_type',
-    //     'article_subtitle',
-    //     'article_author',
-    //     'article_imgcover',
-    //     'article_p1',
-    //     'article_p1_img',
-    //     'article_p2',
-    //     'article_p2_img'
-    // ];
-
     protected $guarded = [];
 }
