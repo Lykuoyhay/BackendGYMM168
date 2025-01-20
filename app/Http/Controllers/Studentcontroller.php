@@ -25,7 +25,7 @@ class StudentController extends Controller
             'password' => 'required|string|min:8',
             'gender' => 'required|string',
             'telephone' => 'required|string',
-            'image' => 'required', // max 2MB
+            'image' => 'nullable', // max 2MB
         ]);
 
         // Handle file upload
