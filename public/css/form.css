@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 580px;
+    background: url(../Images/account.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.signin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background:white;
+    border: 2px solid rgb(255, 255, 255, .5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.signin h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF69B4;
+    border-bottom: 1px solid silver;
+}
+
+.signin form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .loginUser {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.loginUser input {
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.loginUser input::placeholder {
+    color: #FF69B4;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #FF69B4;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    border-color: #FF69B4;
+    transition: 0.5s;
+}
+
+.signuplink {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+
+.signuplink a {
+    color: #FF69B4;
+    text-decoration: none;
+}
+
+.signuplink a:hover {
+    text-decoration: underline;
+}

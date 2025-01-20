@@ -1,0 +1,38 @@
+body
+{
+    background-color: #EAA690;
+}
+
+
+ul .list-unstyled .btn
+{
+    width: 150px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-custom
+{
+    background-color: EAA690;
+    color: black;
+    border: 2px solid #555555;
+}
+  
+.btn-custom:hover 
+{
+    background-color: #555555;
+    color: white;
+}
+
+.schedule {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
