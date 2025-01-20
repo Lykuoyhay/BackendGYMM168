@@ -29,7 +29,7 @@ class CoachController extends Controller
             'password' => 'required|string|min:8',
             'gender' => 'required|string',
             'telephone' => 'required|string',
-            'image' => 'required',
+            'image' => 'nullable',
         ]);
 
         // Handle file upload for coach
